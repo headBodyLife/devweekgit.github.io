@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 
 .resume-contents {
     min-height: 100vh;
-    width: 70%;
+    width: 80%;
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -17,13 +18,14 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #69a387;
+    background-color: #22232a;
+    
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #024931;
+    background-color: #060211;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -98,6 +100,41 @@
     padding-bottom: 2rem;
 }
 .about-me-contents {
-    font-size: 14px;
+    font-size: 18px;
     color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
